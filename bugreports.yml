@@ -1,86 +1,23 @@
 ---
-# Шаблон
-- summary: |
-    Короткое описание ошибки
-  environment: |
-    Ссылка на билд/коммит/версия ПО и всего окружения
-  steps-to-reproduce: |
-    Полный перечень шагов для воспроизведения и описание, на каком шаге произошла ошибка
-  expected-result: |
-    Какой результат должен быть без ошибки
-  actual-result: |
-    Какой результат получился на самом деле
-###################################
-# Примеры
-- summary: |
-    Не работает восстановление пароля
-  environment: |
-    Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
-    ОС Linux 22.04
-  steps-to-reproduce: |
-    1. Зайти на страницу логина https://runit.hexlet.ru/login
-    2. Нажать ссылку «Не помню пароль»
-    3. Ввести почту и нажать «Восстановить пароль»
-  expected-result: |
-    На странице формы будет сообщение с просьбой проверить почту
-    На почту придет письмо со ссылкой на восстановление пароля
-  actual-result: |
-    На странице ничего не происходит
-    В консоли браузера в Devtools выводится почта
-
-- summary: |
-    Изменяется url в адресной строке браузера, не работают вкладки LOBBY/TOURNAMENT/COMPLETED GAMES
-  environment: |
-    Google Chrome 107.0.5304.121 (Официальная сборка) (64 бит)
-    ОС Linux
-  steps-to-reproduce: |
-    1. Залогиниться в системе https://codebattle.hexlet.io/session/new?locale=en&next=%2F
-    2. Переключить Лидерборд по сроку (месяц/неделя/за все время)
-    3. Переключить LOBBY/TOURNAMENT/COMPLETED GAMES
-  expected-result: |
-    В адресной строке url не меняется
-    Вкладки работают
-  actual-result: |
-    При нажатии на week,month,all в urlHash появляется '!'
-    Вкладки не работают
-    Ошибка изображена на скриншоте assets/bug.png
-#################################
-# мои багрепорты
-#################################
-##
-- summary: |
-    Съезжает верстка страницы Магазин на устройствах с шириной экрана менее 414
-  environment: |
-    Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/14.2 Chrome/87.0.4280.141 Mobile Safari/537.36
-    ОС Windows 10
-  steps-to-reproduce: |
-    no data
-  expected-result: |
-    Карточки товаров видно и с ними вомжно взаимодействовать
-  actual-result: |
-    Ошибка изображена на скриншоте assets/1.PNG
-###
-
-##
 - summary: |
     Съезжает верстка страницы Магазин на устройствах с шириной экрана менее 992 и менее 414
   environment: |
-    Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/14.2 Chrome/87.0.4280.141 Mobile Safari/537.36
+    Mozila Firefox 120.01 (64-разрядный)
     ОС Windows 10
   steps-to-reproduce: |
     no data
   expected-result: |
+    Разделитель не заходит на панель поиска/фильтрации 
     Карточки товаров видно и с ними вомжно взаимодействовать
-    Левая панель поиска/фильтрации с 
-  actual-result: |
+  actual-result: |    
+    Карточки товаров не видно и с ними не вомжно взаимодействовать
+    Съехал разделитель панели поиска/фильтрации  
     Ошибка изображена на скриншотах: assets/1.png assets/2.png
-###
 
-##
 - summary: |
-    Битая иконка Английского языка
+    Не отображается иконка Английского языка
   environment: |
-    Mozilla/5.0
+    Mozila Firefox 120.01 (64-разрядный)
     ОС Windows 10
   steps-to-reproduce: |
     1. Нажать на кнопку "Language"/"Язык"
@@ -89,13 +26,11 @@
   actual-result: |
     Отсутствует иконка Английского языка
     Ошибка изображена на скриншотах: assets/3.png
-###
 
-##
 - summary: |
     Не закрывается всплывающее окно оформления заказа
   environment: |
-    Mozilla/5.0
+    Mozila Firefox 120.01 (64-разрядный)
     ОС Windows 10
   steps-to-reproduce: |
     1. В корзине должен быть товар
@@ -106,12 +41,11 @@
   actual-result: |
     Не закрывается всплывающее окно оформления заказа
     Ошибка изображена на скриншотах: assets/4.jpg
-###
 
 - summary: |
     Сжатое по высоте изображение на карточке товара
   environment: |
-    Mozilla/5.0
+    Mozila Firefox 120.01 (64-разрядный)
     ОС Windows 10
   steps-to-reproduce: |
     1. Выбираем производителя luxury palace
@@ -126,7 +60,7 @@
 - summary: |
     Существующий товар не отображается при поиске по ключевому слову
   environment: |
-    Mozilla/5.0
+    Mozila Firefox 120.01 (64-разрядный)
     ОС Windows 10
   steps-to-reproduce: |
     1. В поиске вводим Handcraft Chines style
