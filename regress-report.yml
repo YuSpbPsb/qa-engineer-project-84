@@ -99,24 +99,24 @@ bugreports:
       ОС Windows 10
       Разрешение экрана 1920*1080
     steps-to-reproduce: |
-      -В поиск набрать OPPOF19
-      -Очистить поиск
-      -В поиск набрать Infinix INBOOK
-      -Очистить поиск
-      -В поиск набрать Brown Perfume
-      -Очистить поиск
-      -В поиск набрать Eau De Perfume Spray
-      -Очистить поиск
-      -В поиск набрать Daal Masoor 500 grams
-      -Очистить поиск
-      -В поиск набрать Elbow Macaroni - 400 gm
-      -Очистить поиск
-      -В поиск набрать Orange Essence Food Flavou
-      -Очистить поиск
-      -В поиск набрать Gulab Powder 50 Gram
-      -Очистить поиск
-      -В поиск набрать Plant Hanger For Home
-      -Очистить поиск
+      1. В поиск набрать OPPOF19
+      2. Очистить поиск
+      3. В поиск набрать Infinix INBOOK
+      4. Очистить поиск
+      5. В поиск набрать Brown Perfume
+      6. Очистить поиск
+      7. В поиск набрать Eau De Perfume Spray
+      8. Очистить поиск
+      9. В поиск набрать Daal Masoor 500 grams
+      10. Очистить поиск
+      11. В поиск набрать Elbow Macaroni - 400 gm
+      12. Очистить поиск
+      13. В поиск набрать Orange Essence Food Flavou
+      14. Очистить поиск
+      15. В поиск набрать Gulab Powder 50 Gram
+      16. Очистить поиск
+      17. В поиск набрать Plant Hanger For Home
+      18. Очистить поиск
     expected-result: |
       Карточка товара пропорциональна, кнопка "В корзину" находится в пределах карточки товара
     actual-result: |
