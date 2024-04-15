@@ -23,10 +23,6 @@ test-cases:
   status: pass
 
 - summary: |
-    Просмотр товаров
-  status: pass
-
-- summary: |
     Просмотр подробной информации о товаре
   status: pass
 

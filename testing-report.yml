@@ -14,15 +14,7 @@
   status: pass
 
 - summary: |
-    Фильтрация товаров по наличию
-  status: pass
-
-- summary: |
     Фильтрация товаров по цене
-  status: pass
-
-- summary: |
-    Просмотр товаров
   status: pass
 
 - summary: |

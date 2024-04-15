@@ -33,11 +33,11 @@ https://github.com/YuSpbPsb/qa-engineer-project-84/blob/d39c424cf38f05dbde923a7c
 
 https://github.com/YuSpbPsb/qa-engineer-project-84/blob/d39c424cf38f05dbde923a7c5a8769a458d404d5/test-cases.yml#L41 - сделать самостоятельно по примеру выше
 4#+
-#?
+
 https://github.com/YuSpbPsb/qa-engineer-project-84/blob/d39c424cf38f05dbde923a7c5a8769a458d404d5/test-cases.yml#L55 - у нас по умолчанию чек бокс всегда включен - поэтому если я сейчас пойду по твоему шагу я выключу чек бокс и тогда ОР не соотвествует тому что я увижу
 
 Потому что отключенный чек бокс должен показать "Все товары незаивисимо в наличии они или нет"#?
-5#?
+5#+
 
 https://github.com/YuSpbPsb/qa-engineer-project-84/blob/d39c424cf38f05dbde923a7c5a8769a458d404d5/test-cases.yml#L69 - исправить согласно примерам выше
 6#+
@@ -75,9 +75,9 @@ https://github.com/YuSpbPsb/qa-engineer-project-84/blob/d39c424cf38f05dbde923a7c
 12#+
 
 https://github.com/YuSpbPsb/qa-engineer-project-84/blob/d39c424cf38f05dbde923a7c5a8769a458d404d5/test-cases.yml#L202 - тоже самое что и выше
-13
+13#+
 
-https://github.com/YuSpbPsb/qa-engineer-project-84/blob/d39c424cf38f05dbde923a7c5a8769a458d404d5/test-cases.yml#L229 - то же самое что и выше
+https://github.com/YuSpbPsb/qa-engineer-project-84/blob/d39c424cf38f05dbde923a7c5a8769a458d404d5/test-cases.yml#L229 - то же самое что и выше#+
 ####################
 bugreports.yml
 
