@@ -85,13 +85,13 @@ bugreports.yml
 1
 
 https://github.com/YuSpbPsb/qa-engineer-project-84/blob/d39c424cf38f05dbde923a7c5a8769a458d404d5/bugreports.yml#L3 - Нет мобильной версии
-
+#+
 Все проще проще и проще)
 
 https://github.com/YuSpbPsb/qa-engineer-project-84/blob/d39c424cf38f05dbde923a7c5a8769a458d404d5/bugreports.yml#L9 - Есть мобильная версия сайта
-
+#+
 https://github.com/YuSpbPsb/qa-engineer-project-84/blob/d39c424cf38f05dbde923a7c5a8769a458d404d5/bugreports.yml#L12 - нет мобильной версии сайта
-
+#+
 все проще и еще проще)
 testing-report.yml
 
